@@ -164,80 +164,48 @@ a:hover {
     color: #ff6600; /* Changes color on hover */
 }
 </style>
-<div class="affiliation-section">
-  <header>
-        <p class="f6 b helvetica tracked">
-          <!-- Anda bisa menambahkan teks kecil di sini jika diperlukan -->
-        </p>
-        <h1 class="f1">
-          Affiliation
-        </h1>
+<div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <header>
+        <p class="f6 b helvetica tracked"></p>
+        <h1 class="f1">Affiliation</h1>
       </header>
-
-    <h3>Current Affiliation</h3>
-    <ul>
-        <li>Research Center for Climate and Atmosphere, National Research and Innovation Agency (BRIN), Bandung 40135, Indonesia</li>
-        <li>Department of Physics, IPB University, Jl. Meranti, Kampus IPB Darmaga, Bogor 16680, Indonesia</li>
-    </ul>
-
-    <h3>Other Affiliation</h3>
-    <ul>
-        <li>Theoretical Physics Laboratory, Department of Physics, Faculty of Mathematics and Natural Sciences, Universitas Andalas, Limau Manis, Padang, 25163, Indonesia</li>
-    </ul>
+      <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        <h3 class="affiliation-title">Current Affiliation</h3>
+        <ul>
+            <li>Research Center for Climate and Atmosphere, National Research and Innovation Agency (BRIN), Bandung 40135, Indonesia</li>
+            <li>Department of Physics, IPB University, Jl. Meranti, Kampus IPB Darmaga, Bogor 16680, Indonesia</li>
+        </ul>
+        
+        <h3 class="affiliation-title">Other Affiliation</h3>
+        <ul>
+            <li>Theoretical Physics Laboratory, Department of Physics, Faculty of Mathematics and Natural Sciences, Universitas Andalas, Limau Manis, Padang, 25163, Indonesia</li>
+        </ul>
+      </div>
+    </article>
 </div>
 
 <style>
-.affiliation-section {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin-top: 20px;
-}
-
-h1 {
-    font-size: 2.5rem; /* Menyesuaikan ukuran font judul */
-    margin-bottom: 15px;
-    color: #333; /* Warna judul */
-}
-
-h3 {
-    font-size: 1.5rem; /* Menyesuaikan ukuran font subjudul */
-    color: #007bff; /* Warna biru subjudul */
+.affiliation-title {
+    color: #333; /* Warna abu-abu seperti teks Platform dan URL */
+    font-size: 1.25em; /* Ukuran font yang sama dengan bagian Platform dan URL */
     margin-top: 20px;
 }
 
 ul {
-    list-style-type: none; /* Menghilangkan bullet default */
+    list-style-type: none;
     padding-left: 0;
 }
 
 li {
     padding: 5px 0;
+    font-size: 1.1em; /* Ukuran font serupa dengan teks URL */
+    color: #ff6600; /* Warna yang konsisten dengan teks URL */
 }
 
 li::before {
-    content: "• ";  /* Simbol bullet oranye */
+    content: "• ";  /* Simbol bullet */
     color: #ff6600; /* Warna bullet oranye */
-    font-weight: bold;
-}
-
-.f6 {
-    font-size: 0.875rem; /* Ukuran kecil untuk paragraf */
-}
-
-.b {
-    font-weight: bold; /* Teks tebal */
-}
-
-.tracked {
-    letter-spacing: 0.05em; /* Menambah jarak antar huruf */
-}
-
-.helvetica {
-    font-family: 'Helvetica', sans-serif;
-}
-
-.f1 {
-    font-size: 3rem; /* Ukuran besar untuk heading 1 */
 }
 </style>
 
