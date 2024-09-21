@@ -165,7 +165,14 @@ a:hover {
 }
 </style>
 <div class="affiliation-section">
-    <h2>Afiliasi</h2>
+  <header>
+        <p class="f6 b helvetica tracked">
+          <!-- Anda bisa menambahkan teks kecil di sini jika diperlukan -->
+        </p>
+        <h1 class="f1">
+          Affiliation
+        </h1>
+      </header>
 
     <h3>Current Affiliation</h3>
     <ul>
@@ -186,18 +193,20 @@ a:hover {
     margin-top: 20px;
 }
 
-h2 {
-    color: #333;
-    margin-bottom: 10px;
+h1 {
+    font-size: 2.5rem; /* Menyesuaikan ukuran font judul */
+    margin-bottom: 15px;
+    color: #333; /* Warna judul */
 }
 
 h3 {
-    color: #007bff;
+    font-size: 1.5rem; /* Menyesuaikan ukuran font subjudul */
+    color: #007bff; /* Warna biru subjudul */
     margin-top: 20px;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none; /* Menghilangkan bullet default */
     padding-left: 0;
 }
 
@@ -206,10 +215,32 @@ li {
 }
 
 li::before {
-    content: "• ";  /* Simbol bullet */
-    color: #ff6600; /* Warna bullet */
+    content: "• ";  /* Simbol bullet oranye */
+    color: #ff6600; /* Warna bullet oranye */
+    font-weight: bold;
+}
+
+.f6 {
+    font-size: 0.875rem; /* Ukuran kecil untuk paragraf */
+}
+
+.b {
+    font-weight: bold; /* Teks tebal */
+}
+
+.tracked {
+    letter-spacing: 0.05em; /* Menambah jarak antar huruf */
+}
+
+.helvetica {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.f1 {
+    font-size: 3rem; /* Ukuran besar untuk heading 1 */
 }
 </style>
+
 
       </div>
     </article>
